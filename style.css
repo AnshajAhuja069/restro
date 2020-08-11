@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background-color: #e4e3e3;
+    margin-right: 0em;
+}
+
+.top {
+    background-image: url("bigstock-indian-food-saag-paneer-curr-68302852-1.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-size: 500%;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #411f1f;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+    transition: ease-in;
+}
+
+li {
+    display: inline;
+    position: relative;
+    left: 25%;
+}
+
+#home {
+    position: relative;
+    right: 200%;
+    font-size: 200%;
+    top: 20px;
+}
+
+#restro {
+    position: relative;
+    right: 80%;
+    font-size: 200%;
+    top: 20px;
+}
+
+#menu {
+    font-size: 200%;
+    position: relative;
+    top: 20px;
+    left: 25%;
+}
+
+#drinks {
+    font-size: 200%;
+    position: relative;
+    left: 80%;
+    top: 20px;
+}
+
+.logo {
+    height: 6em;
+    position: relative;
+    right: 50%;
+    top: 1px;
+}
+
+.re {
+    width: 100%;
+}
+
+#pp {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 4%;
+    text-align: justify;
+}
+
+#loc {
+    font-family: "Raleway";
+    font-size: 150%;
+    line-height: 1;
+    letter-spacing: .4px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0, 0, 0, .5);
+    display: inline-block;
+    left: 50%;
+    float: right;
+    position: relative;
+    text-align: center;
+}
+
+#ento {
+    padding-left: 4%;
+    font-size: 190%;
+    font-family: 'Merienda', cursive;
+}
+
+.menu {
+    background-image: url("menu.jpg");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#dishes {
+    font-size: 180%;
+    font-family: Cambria, Cochin, ;
+    padding-left: 43%;
+    background-color: #411f1f;
+    margin-bottom: 0;
+    color: burlywood;
+}
+
+#afterm {
+    padding-top: 4%;
+    padding-left: 4%;
+    font-size: 190%;
+    font-family: 'Merienda', cursive;
+}
+
+#lorem {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.7em;
+    display: inline-block;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+}
+
+.end {
+    padding-bottom: 5%;
+}
+
+.drinks {
+    background-image: url("drinks.jpg");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.make {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-style: normal;
+    position: relative;
+    left: 40%;
+    padding-top: 5%;
+}
+
+#finda {
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color: #272727;
+    background-color: rgba(0, 0, 0, .95);
+    font-family: inherit;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    height: auto;
+    display: inline-block;
+    padding: 1.1em 2.3em;
+    line-height: normal;
+    text-shadow: none;
+    opacity: .8;
+    position: relative;
+    width: auto;
+    left: 47%;
+}
+
+.ennd {
+    background-color: #411f1f;
+    height: 200px;
+}
+
+#endd {
+    position: relative;
+    left: 45%;
+    color: blanchedalmond;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ennnd {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-style: normal;
+    position: relative;
+    left: 40%;
+    padding-top: 5%;
+    color: blanchedalmond;
+}
